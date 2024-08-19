@@ -1,0 +1,112 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#cabeçalho {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+
+}
+
+nav ul {
+    list-style: none;
+    /* tira aquelas bolinhas*/
+    display: flex;
+    /*Deixa os textos deitados um do lado do outro*/
+    justify-content: center;
+
+}
+
+nav li {
+    margin: 10px;
+    /*Espaçamento entre as palavras do Header*/
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    /*Adicionando Transição de cor ao passar o mouse em cima*/
+    color: black;
+    transition: 0.3s;
+}
+
+header img {
+    /*Alterando o tamanho da imagem*/
+    width: 100px;
+    height: auto;
+
+}
+main{
+    flex: 1.1;
+}
+main p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#imgmain { /*Para centralizar a imagem da main foi criado uma div apenas pra ela*/
+    text-align: center;
+
+}
+
+
+#Rodape {
+    background-color: #333;
+    color: #fff;
+    /*Posição fixa do meu rodape*/
+    text-align: center;
+    width: 100%;
+    /* Define a largura da tabela*/
+    bottom: 0;
+    /*Define o elemento com a borda inferior da janela */
+    /* position: fixed; */
+    /*Fixa o elemento no topo da tela*/
+    left: 0;
+    /*Define o elemento com a borda esquerda da janela*/
+    height: 10%;/*altura do rodape*/
+    margin: 5;
+    position:static;
+    
+
+}
+
+#Rodape table {
+    width: 100%;
+    /*Largura da tabela*/
+    border-collapse: collapse;
+    /*Borda da tabela*/
+
+}
+
+#Rodape td {
+    padding: 10px;
+    /*Define a distancia do texto dentro da celula*/
+
+}
+
+#Rodape tr {
+    display: flex;
+    justify-content: center;
+}
+#Main table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#Main li{
+    
+        width: 16%;
+        margin: auto;
+       
+   
+   
+    padding: 1px;
+    border-bottom: 1px solid #ddd;
+    
+}
